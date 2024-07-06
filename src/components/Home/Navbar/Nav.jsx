@@ -67,16 +67,17 @@ export const Nav = () => {
 				}`}
 			>
 				<div className="text-end mb-5">
-					<button className="border border-slate-400 p-2 rounded-md inline shadow"
-                    onClick={() => {
-                        cOo();
-                    }}
-                    >
+					<button
+						className="border border-slate-400 p-2 rounded-md inline shadow"
+						onClick={() => {
+							cOo();
+						}}
+					>
 						<LuPanelRightClose className="text-2xl " />
 					</button>
 				</div>
 				<div className="flex flex-col *:flex *:justify-start gap-5 *:gap-2 *:container *:items-center">
-					<MenuBtn addStyle="hover:bg-gradient-to-l from-slate-500 via-slate-500/5 to-white/0 p-2 rounded-md"/>
+					<MenuBtn addStyle="hover:bg-gradient-to-l from-slate-500 via-slate-500/5 to-white/0 p-2 rounded-md" />
 				</div>
 			</div>
 		</>

@@ -1,5 +1,5 @@
 import {
-    LuAlignCenter,
+	LuAlignCenter,
 	LuBookDown,
 	LuBookOpen,
 	LuBookOpenCheck,
@@ -14,7 +14,7 @@ export const Menu = () => {
 		<>
 			<div className=" container max-w-maxWidth pt-4 md:flex justify-between items-center hidden">
 				<div className="flex *:flex *:gap-2 gap-5 *:justify-center *:items-center *:font-danalight *:text-slate-500">
-					<MenuBtn/>
+					<MenuBtn />
 				</div>
 				<div className="">
 					<button className="flex justify-center items-center gap-2 *:text-red-300 *:hover:text-red-600">
