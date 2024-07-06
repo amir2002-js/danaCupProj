@@ -1,45 +1,84 @@
-import { LuShoppingBasket, LuSun, LuUser2 } from "react-icons/lu"
-import { Search } from "./Search"
-import { Menu } from "./Menu"
+import {
+	LuAlignCenter,
+	LuPanelRightClose,
+	LuShoppingBasket,
+	LuSun,
+	LuUser2,
+} from "react-icons/lu";
+import { Search } from "./Search";
+import { Menu } from "./Menu";
+import Logo from "./Logo";
+import { useState } from "react";
+import MenuBtn from "./MenuBtn";
 
 export const Nav = () => {
-  return (
-    <>
-    <div className="container flex justify-between max-w-maxWidth py-3">
-        {/* logo */}
-        <div className="flex gap-2 justify-center items-center">
-          <img src="../../images/logo.png" alt=""/>
-          <div className="md:block hidden">
-            <h1 className="font-danabold">کتابخونه</h1>
-            <p className="font-danalight text-[15px] whitespace-nowrap">فروشگاه آنلاین کتاب</p>
-          </div>
-        </div>
+	const [isopen, setStyle] = useState(false);
 
-        {/* search bar */}
-        <div className="">
-          <Search/>
-        </div>
+	function cOo() {
+		setStyle(!isopen);
+	}
+	return (
+		<>
+			<div className="container flex justify-between max-w-maxWidth py-3">
+				{/* logo */}
+				<div>
+					<Logo />
+				</div>
 
-        {/* login */}
-        <button className="flex justify-center items-center border border-slate-200 p-3 rounded-md gap-4 shadow">
-          <LuUser2 className="text-xl"/>
-          <p className="hidden md:block">
-            ثبت نام | ورود
-          </p>
-        </button>
+				{/* search bar */}
+				<div className="sm:block hidden">
+					<Search />
+				</div>
 
-        {/* dark mood btn*/}
-        <button className="flex justify-center items-center border border-slate-200 p-3 rounded-md shadow">
-          <LuSun className="text-xl"/>
-        </button>
+				{/* login */}
+				<button className="flex justify-center items-center border border-slate-200 p-3 rounded-md gap-4 shadow">
+					<LuUser2 className="text-xl" />
+					<p className="hidden md:block">ثبت نام | ورود</p>
+				</button>
 
-        {/*shop cart btn*/}
-        <button className="flex justify-center items-center border border-slate-200 p-3 rounded-md shadow">
-          <LuShoppingBasket className="text-xl"/>
-        </button>
+				{/* dark mood btn*/}
+				<button className="flex justify-center items-center border border-slate-200 p-3 rounded-md shadow">
+					<LuSun className="text-xl" />
+				</button>
 
-    </div>
-    <Menu/>
-    </>
-  )
-}
+				{/*shop cart btn*/}
+				<button className="flex justify-center items-center border border-slate-200 p-3 rounded-md shadow">
+					<LuShoppingBasket className="text-xl" />
+				</button>
+
+				<button
+					className="md:hidden flex justify-center items-center border border-slate-200 p-3 rounded-md shadow"
+					onClick={() => {
+						cOo();
+					}}
+				>
+					<LuAlignCenter className="text-xl" />
+				</button>
+			</div>
+			<div className="sm:hidden container max-w-maxWidth">
+				<Search />
+			</div>
+			<div className="">
+				<Menu />
+			</div>
+			<div
+				className={`p-7 min-h-[100vh] w-72 bg-slate-200 fixed top-0 transition-all duration-500 transform ${
+					isopen ? "translate-x-0" : `translate-x-full`
+				}`}
+			>
+				<div className="text-end mb-5">
+					<button className="border border-slate-400 p-2 rounded-md inline shadow"
+                    onClick={() => {
+                        cOo();
+                    }}
+                    >
+						<LuPanelRightClose className="text-2xl " />
+					</button>
+				</div>
+				<div className="flex flex-col *:flex *:justify-start gap-5 *:gap-2 *:container *:items-center">
+					<MenuBtn addStyle="hover:bg-gradient-to-l from-slate-500 via-slate-500/5 to-white/0 p-2 rounded-md"/>
+				</div>
+			</div>
+		</>
+	);
+};
