@@ -39,22 +39,22 @@ export const BooksInDisCountBox = () => {
 		},
 	];
 	return (
-		<div className="flex justify-between items-center py-4">
+		<div className="flex flex-wrap justify-between items-center py-4">
 			{listBooks.map((book) => (
 				<div
-					className="max-w-[220px] border-x border-slate-300 px-2 flex flex-col gap-3"
+					className="max-w-[220px] border-x my-2 border-slate-300 px-2 flex flex-col gap-3"
 					key={book.id}
 				>
-                    {/* image */}
+					{/* image */}
 					<div className="">
 						<img src={book.urlBook} alt="" />
 					</div>
-                    {/* information */}
+					{/* information */}
 					<div className="flex flex-col gap-2">
 						<div className="font-danabold truncate text-ellipsis overflow-hidden whitespace-nowrap dark:text-slate-200">
 							{book.title}
 						</div>
-                        {/* rank & price */}
+						{/* rank & price */}
 						<div className="flex justify-between items-center">
 							{/* rank */}
 							<div className="">
