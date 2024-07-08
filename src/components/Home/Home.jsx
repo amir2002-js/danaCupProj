@@ -5,10 +5,10 @@ export const Home = () => {
 	return (
 		<>
 			{/* navbar */}
-			<nav className="border-b border-slate-300 py-3 z-10">
+			<nav className="border-b dark:bg-slate-800 border-slate-300 py-3 z-10">
 				<Nav />
 			</nav>
-			<div className="bg-slate-100 py-5">
+			<div className="bg-slate-100 dark:bg-slate-900 py-5">
 				<div className=" container max-w-maxWidth">
 					<CarouselComponents/>
 				</div>

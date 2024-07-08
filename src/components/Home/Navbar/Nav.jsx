@@ -10,6 +10,7 @@ import { Menu } from "./Menu";
 import Logo from "./Logo";
 import { useState } from "react";
 import MenuBtn from "./MenuBtn";
+import { DarkMode } from "./DarkMode";
 
 export const Nav = () => {
 	const [isopen, setStyle] = useState(false);
@@ -19,7 +20,7 @@ export const Nav = () => {
 	}
 	return (
 		<>
-			<div className="container flex justify-between max-w-maxWidth py-3">
+			<div className="container flex justify-between max-w-maxWidth py-3 dark:text-slate-100">
 				{/* logo */}
 				<div>
 					<Logo />
@@ -37,9 +38,7 @@ export const Nav = () => {
 				</button>
 
 				{/* dark mood btn*/}
-				<button className="flex justify-center items-center border border-slate-200 p-3 rounded-md shadow">
-					<LuSun className="text-xl" />
-				</button>
+				<DarkMode/>
 
 				{/*shop cart btn*/}
 				<button className="flex justify-center items-center border border-slate-200 p-3 rounded-md shadow">
