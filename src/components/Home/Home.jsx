@@ -1,4 +1,5 @@
 import CarouselComponents from "./Carousel/CarouselComponents";
+import { DisCountBox } from "./DisCountBox/DisCountBox";
 import { Nav } from "./Navbar/Nav";
 
 export const Home = () => {
@@ -11,6 +12,7 @@ export const Home = () => {
 			<div className="bg-slate-100 dark:bg-slate-900 py-5">
 				<div className=" container max-w-maxWidth">
 					<CarouselComponents/>
+					<DisCountBox/>
 				</div>
 			</div>
 		</>
