@@ -1,3 +1,4 @@
+import { BestSellerBooks } from "./Best Seller/BestSellerBooks";
 import CarouselComponents from "./Carousel/CarouselComponents";
 import { DisCountBox } from "./DisCountBox/DisCountBox";
 import Duty from "./DutyOfSite/Duty";
@@ -15,6 +16,7 @@ export const Home = () => {
 					<CarouselComponents/>
 					<DisCountBox/>
 					<Duty/>
+					<BestSellerBooks/>
 				</div>
 			</div>
 		</>
