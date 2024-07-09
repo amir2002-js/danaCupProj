@@ -26,10 +26,10 @@ export default function BestSellerBook() {
 		},
 	];
 	return (
-		<div className="flex *:flex-grow gap-5">
+		<div className="flex *:flex-grow gap-5 flex-col md:flex-row max-sm:w-9/12 mx-auto">
 			{dataSeller.map((book) => (
 				<div
-					className="flex container max-w-[584px] gap-4 bg-white rounded-3xl dark:bg-slate-700 dark:text-white/20 py-5 items-center justify-between"
+					className="flex flex-col md:flex-row container max-w-[584px] gap-4 bg-white rounded-3xl dark:bg-slate-700 dark:text-white/20 py-5 items-center justify-between"
 					key={book.id}
 				>
 					<div className=" flex ">
@@ -37,7 +37,7 @@ export default function BestSellerBook() {
 					</div>
 
 					{/* information */}
-					<div className="flex flex-col gap-6 text-sm container dark:text-slate-100 w-[300px]">
+					<div className="flex flex-col gap-4 py-3 text-sm container dark:text-slate-100 w-[300px]">
 						{/* title */}
 						<p className="font-danabold ">{book.title}</p>
 
@@ -51,7 +51,7 @@ export default function BestSellerBook() {
 								<figcaption>{book.type}</figcaption>
 							</div>
 
-							<div className="h-full w-[2px] bg-slate-300"></div>
+							<div className="h-[30px] min-w-[1px] bg-slate-300 dark:bg-slate-600"></div>
 
 							{/* writer */}
 							<div className="flex flex-col items-center justify-center">
@@ -61,7 +61,7 @@ export default function BestSellerBook() {
 								<figcaption>{book.auther}</figcaption>
 							</div>
 
-							<div className="h-full w-[2px] bg-slate-300"></div>
+							<div className="h-[30px] min-w-[1px] bg-slate-300 dark:bg-slate-600"></div>
 
 							{/* tarnslate */}
 							<div className="flex flex-col items-center justify-center">
