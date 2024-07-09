@@ -61,7 +61,7 @@ export const Nav = () => {
 				<Menu />
 			</div>
 			<div
-				className={`p-7 min-h-[100vh] w-72 bg-slate-200 fixed top-0 transition-all duration-500 transform ${
+				className={`p-7 min-h-[100vh] w-72 bg-slate-200 dark:bg-gray-800 dark:text-slate-100 fixed top-0 transition-all duration-500 transform ${
 					isopen ? "translate-x-0" : `translate-x-full`
 				}`}
 			>

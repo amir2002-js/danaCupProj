@@ -79,7 +79,7 @@ export default function BestSellerBook() {
 
 						{/* sell */}
 						<div className="flex items-center justify-between">
-							<p>{book.price}</p>
+							<p className="font-peydasemibold text-teal-600">{book.price}</p>
 							<button className="flex shadow gap-3 bg-teal-600 rounded-lg text-white px-4 py-2 items-center justify-center">
 								<p>خرید</p>
 								<LuShoppingBag />
