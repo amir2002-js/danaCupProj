@@ -2,10 +2,10 @@ import Carousel from "./Carousel";
 import Image from "./Image";
 
 export default function CarouselComponents() {
-  return (
-    <div className="flex max-h-[360px] gap-7 my-5 ">
-        <Image/>
-        <Carousel/>
-    </div>
-  )
+	return (
+		<div className="flex max-h-[360px] gap-7 my-5 ">
+			<Image />
+			<Carousel />
+		</div>
+	);
 }

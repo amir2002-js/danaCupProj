@@ -2,6 +2,7 @@ import { BestSellerBooks } from "./Best Seller/BestSellerBooks";
 import CarouselComponents from "./Carousel/CarouselComponents";
 import { DisCountBox } from "./DisCountBox/DisCountBox";
 import Duty from "./DutyOfSite/Duty";
+import Events from "./Events/Events";
 import { Nav } from "./Navbar/Nav";
 import PublishersBox from "./Publisher/PublishersBox";
 
@@ -14,11 +15,12 @@ export const Home = () => {
 			</nav>
 			<div className="bg-slate-100 dark:bg-slate-900 py-5 mt-[138px]">
 				<div className=" container max-w-maxWidth">
-					<CarouselComponents/>
-					<DisCountBox/>
-					<Duty/>
-					<BestSellerBooks/>
-					<PublishersBox/>
+					<CarouselComponents />
+					<DisCountBox />
+					<Duty />
+					<BestSellerBooks />
+					<PublishersBox />
+					<Events />
 				</div>
 			</div>
 		</>

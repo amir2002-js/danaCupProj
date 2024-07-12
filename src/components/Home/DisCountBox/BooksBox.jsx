@@ -1,6 +1,6 @@
 import { LuStar } from "react-icons/lu";
 
-export const BooksBox = ({listBooks}) => {
+export const BooksBox = ({ listBooks }) => {
 	return (
 		<div className="flex flex-wrap justify-between items-center py-4">
 			{listBooks.map((book) => (
@@ -31,9 +31,9 @@ export const BooksBox = ({listBooks}) => {
 								<figcaption className="text-sm font-peydalight line-through text-slate-400">
 									{book.price}
 								</figcaption>
-								<caption className="font-peydamd whitespace-nowrap">
+								<p className="font-peydamd whitespace-nowrap">
 									{book.disCountedPrice}
-								</caption>
+								</p>
 							</div>
 						</div>
 					</div>

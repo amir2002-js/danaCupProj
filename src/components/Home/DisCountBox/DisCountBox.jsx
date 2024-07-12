@@ -43,7 +43,9 @@ export const DisCountBox = () => {
 		<div className="py-10">
 			<div className="flex justify-between">
 				<div className="">
-					<p className="dark:text-slate-300 font-danabold">تخفیفات شگفت انگیز</p>
+					<p className="dark:text-slate-300 font-danabold">
+						تخفیفات شگفت انگیز
+					</p>
 				</div>
 				<div className="flex gap-3">
 					<button className="border-[2px] dark:text-slate-400 dark:hover:text-white text-slate-400 hover:border-slate-600 hover:text-slate-700 dark:border-slate-400 dark:hover:border-white border-slate-300 p-1 rounded-md">
@@ -54,7 +56,7 @@ export const DisCountBox = () => {
 					</button>
 				</div>
 			</div>
-            <BooksBox listBooks={listBooks}/>
+			<BooksBox listBooks={listBooks} />
 		</div>
 	);
 };

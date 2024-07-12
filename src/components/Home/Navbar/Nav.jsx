@@ -38,7 +38,7 @@ export const Nav = () => {
 				</button>
 
 				{/* dark mood btn*/}
-				<DarkMode/>
+				<DarkMode />
 
 				{/*shop cart btn*/}
 				<button className="flex justify-center items-center border border-slate-200 p-3 rounded-md shadow">
