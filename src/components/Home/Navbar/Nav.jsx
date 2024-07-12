@@ -2,7 +2,6 @@ import {
 	LuAlignCenter,
 	LuPanelRightClose,
 	LuShoppingBasket,
-	LuSun,
 	LuUser2,
 } from "react-icons/lu";
 import { Search } from "./Search";

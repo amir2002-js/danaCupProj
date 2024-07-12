@@ -1,11 +1,4 @@
-import {
-	LuAlignCenter,
-	LuBookDown,
-	LuBookOpen,
-	LuBookOpenCheck,
-	LuHome,
-	LuSchool,
-} from "react-icons/lu";
+
 import { PiFireBold } from "react-icons/pi";
 import MenuBtn from "./MenuBtn";
 

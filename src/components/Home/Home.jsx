@@ -3,6 +3,7 @@ import CarouselComponents from "./Carousel/CarouselComponents";
 import { DisCountBox } from "./DisCountBox/DisCountBox";
 import Duty from "./DutyOfSite/Duty";
 import Events from "./Events/Events";
+import FamousBooks from "./FamousBooks/FamousBooks";
 import { Nav } from "./Navbar/Nav";
 import PublishersBox from "./Publisher/PublishersBox";
 
@@ -21,6 +22,7 @@ export const Home = () => {
 					<BestSellerBooks />
 					<PublishersBox />
 					<Events />
+					<FamousBooks/>
 				</div>
 			</div>
 		</>
