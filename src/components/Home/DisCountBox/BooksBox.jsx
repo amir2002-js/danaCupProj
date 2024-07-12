@@ -1,48 +1,11 @@
 import { LuStar } from "react-icons/lu";
 
-export const BooksInDisCountBox = () => {
-	const listBooks = [
-		{
-			title: "معجزه‌های خواربار فروشی نامیا",
-			disCountedPrice: "210000 تومان",
-			price: "260000 تومان",
-			urlBook: "../../images/disCount1.png",
-			id: 1000,
-		},
-		{
-			title: "تاریخ فشرده‌ی اروپا ",
-			disCountedPrice: "150000 تومان",
-			price: "200000 تومان",
-			urlBook: "../../images/disCount2.png",
-			id: 1001,
-		},
-		{
-			title: "امپراطوری",
-			disCountedPrice: "300000 تومان",
-			price: "350000 تومان",
-			urlBook: "../../images/disCount3.png",
-			id: 1002,
-		},
-		{
-			title: "شازده کوچولو",
-			disCountedPrice: "70000 تومان",
-			price: "90000 تومان",
-			urlBook: "../../images/disCount4.png",
-			id: 1003,
-		},
-		{
-			title: "فلسفه تحلیلی و نظریه شناخت در فلسفه اسلامی",
-			disCountedPrice: "318000 تومان",
-			price: "455000 تومان",
-			urlBook: "../../images/disCount5.png",
-			id: 1004,
-		},
-	];
+export const BooksBox = ({listBooks}) => {
 	return (
 		<div className="flex flex-wrap justify-between items-center py-4">
 			{listBooks.map((book) => (
 				<div
-					className="max-w-[220px] border-x my-2 border-slate-300 px-2 flex flex-col gap-3"
+					className="max-w-[220px] \ border-x my-2 border-slate-300 px-2 flex flex-col gap-3"
 					key={book.id}
 				>
 					{/* image */}

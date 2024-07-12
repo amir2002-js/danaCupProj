@@ -26,7 +26,7 @@ export default function Duty() {
 	return (
 		<div className="grid md:grid-cols-4 grid-cols-2 gap-3 justify-between items-center">
 			{dutis.map((duty) => (
-				<div className="flex flex-wrap dark:shadow-white/10 dark:shadow-md items-center sm:justify-evenly px-2 justify-start gap-1 bg-white dark:bg-slate-700 rounded-2xl w-full py-4 shadow" key={duty.id}>
+				<div className="flex flex-wrap dark:shadow-white/10 dark:shadow-md items-center lg:gap-5 md:gap-2.5 px-2 justify-start gap-1 bg-white dark:bg-slate-700 rounded-2xl w-full py-4 shadow" key={duty.id}>
 					<div className="">
                         <span className="bg-teal-100 rounded-lg flex items-center justify-center text-teal-600 w-8 h-8">
 						<LuShield className="text-xl" />

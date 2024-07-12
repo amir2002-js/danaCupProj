@@ -1,7 +1,44 @@
 import { LuChevronLeft, LuChevronRight } from "react-icons/lu";
-import { BooksInDisCountBox } from "./BooksInDisCountBox";
+import { BooksBox } from "./BooksBox";
 
 export const DisCountBox = () => {
+	const listBooks = [
+		{
+			title: "معجزه‌های خواربار فروشی نامیا",
+			disCountedPrice: "210000 تومان",
+			price: "260000 تومان",
+			urlBook: "../../images/disCount1.png",
+			id: 1000,
+		},
+		{
+			title: "تاریخ فشرده‌ی اروپا ",
+			disCountedPrice: "150000 تومان",
+			price: "200000 تومان",
+			urlBook: "../../images/disCount2.png",
+			id: 1001,
+		},
+		{
+			title: "امپراطوری",
+			disCountedPrice: "300000 تومان",
+			price: "350000 تومان",
+			urlBook: "../../images/disCount3.png",
+			id: 1002,
+		},
+		{
+			title: "شازده کوچولو",
+			disCountedPrice: "70000 تومان",
+			price: "90000 تومان",
+			urlBook: "../../images/disCount4.png",
+			id: 1003,
+		},
+		{
+			title: "فلسفه تحلیلی و نظریه شناخت در فلسفه اسلامی",
+			disCountedPrice: "318000 تومان",
+			price: "455000 تومان",
+			urlBook: "../../images/disCount5.png",
+			id: 1004,
+		},
+	];
 	return (
 		<div className="py-10">
 			<div className="flex justify-between">
@@ -17,7 +54,7 @@ export const DisCountBox = () => {
 					</button>
 				</div>
 			</div>
-            <BooksInDisCountBox/>
+            <BooksBox listBooks={listBooks}/>
 		</div>
 	);
 };

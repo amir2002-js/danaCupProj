@@ -29,7 +29,7 @@ export default function BestSellerBook() {
 		<div className="flex *:flex-grow gap-5 flex-col md:flex-row max-sm:w-9/12 mx-auto">
 			{dataSeller.map((book) => (
 				<div
-					className="flex flex-col md:flex-row container max-w-[584px] gap-4 bg-white rounded-3xl dark:bg-slate-700 dark:text-white/20 py-5 items-center justify-between"
+					className="flex flex-col shadow md:flex-row container max-w-[584px] gap-4 bg-white rounded-3xl dark:bg-slate-700 dark:text-white/20 py-5 items-center justify-between"
 					key={book.id}
 				>
 					<div className=" flex ">

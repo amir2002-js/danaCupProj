@@ -3,6 +3,7 @@ import CarouselComponents from "./Carousel/CarouselComponents";
 import { DisCountBox } from "./DisCountBox/DisCountBox";
 import Duty from "./DutyOfSite/Duty";
 import { Nav } from "./Navbar/Nav";
+import PublishersBox from "./Publisher/PublishersBox";
 
 export const Home = () => {
 	return (
@@ -17,6 +18,7 @@ export const Home = () => {
 					<DisCountBox/>
 					<Duty/>
 					<BestSellerBooks/>
+					<PublishersBox/>
 				</div>
 			</div>
 		</>
