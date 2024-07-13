@@ -4,6 +4,7 @@ import { DisCountBox } from "./DisCountBox/DisCountBox";
 import Duty from "./DutyOfSite/Duty";
 import Events from "./Events/Events";
 import FamousBooks from "./FamousBooks/FamousBooks";
+import Grouping from "./Grouping/Grouping";
 import { Nav } from "./Navbar/Nav";
 import PublishersBox from "./Publisher/PublishersBox";
 
@@ -23,6 +24,7 @@ export const Home = () => {
 					<PublishersBox />
 					<Events />
 					<FamousBooks/>
+					<Grouping/>
 				</div>
 			</div>
 		</>
