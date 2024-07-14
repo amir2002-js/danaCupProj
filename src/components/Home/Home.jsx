@@ -7,6 +7,7 @@ import FamousBooks from "./FamousBooks/FamousBooks";
 import Grouping from "./Grouping/Grouping";
 import { Nav } from "./Navbar/Nav";
 import PublishersBox from "./Publisher/PublishersBox";
+import WeakWriter from "./WeakWriter/WeakWriter";
 
 export const Home = () => {
 	return (
@@ -25,6 +26,7 @@ export const Home = () => {
 					<Events />
 					<FamousBooks/>
 					<Grouping/>
+					<WeakWriter/>
 				</div>
 			</div>
 		</>

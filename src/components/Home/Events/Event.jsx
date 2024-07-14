@@ -31,10 +31,10 @@ export default function Event() {
 		},
 	]);
 	return (
-		<div className="flex justify-between items-center gap-9 *:flex-grow my-10">
+		<div className="flex justify-between items-center gap-9 flex-wrap *:flex-grow my-10">
 			{evData.map((e) => (
 				<div
-					className={`flex flex-col min-w-72 justify-center items-center ${e.bg} rounded-lg py-5`}
+					className={`flex flex-col  min-w-72 justify-center items-center ${e.bg} rounded-lg py-5`}
 					key={e.id}
 				>
 					{/* img */}

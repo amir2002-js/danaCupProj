@@ -2,7 +2,7 @@ import { LuStar } from "react-icons/lu";
 
 export const BooksBox = ({ listBooks }) => {
 	return (
-		<div className="flex flex-wrap justify-between items-center py-4">
+		<div className="flex flex-wrap md:justify-between justify-around items-center py-4">
 			{listBooks.map((book) => (
 				<div
 					className="max-w-[220px] \ border-x my-2 border-slate-300 px-2 flex flex-col gap-3"
