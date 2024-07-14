@@ -7,6 +7,7 @@ import FamousBooks from "./FamousBooks/FamousBooks";
 import Grouping from "./Grouping/Grouping";
 import { Nav } from "./Navbar/Nav";
 import PublishersBox from "./Publisher/PublishersBox";
+import TopWriters from "./TopWriters/TopWriters";
 import WeekWriter from "./WeekWriter/WeekWriter";
 
 export const Home = () => {
@@ -24,9 +25,10 @@ export const Home = () => {
 					<BestSellerBooks />
 					<PublishersBox />
 					<Events />
-					<FamousBooks/>
-					<Grouping/>
-					<WeekWriter/>
+					<FamousBooks />
+					<Grouping />
+					<WeekWriter />
+					<TopWriters />
 				</div>
 			</div>
 		</>
