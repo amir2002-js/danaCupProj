@@ -1,5 +1,5 @@
 
-export default function WeakWriter() {
+export default function WeekWriter() {
   return (
     <div className="bg-white dark:text-white/80 dark:bg-slate-800  grid lg:grid-cols-2 max-lg:gap-5 grid-cols-1 rounded-xl p-4 shadow shadow-slate-400 justify-between items-center">
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-5 items-center justify-items-center justify-center">
