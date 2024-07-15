@@ -1,6 +1,6 @@
 import { useState } from "react";
-import TopWriter from "./TopWriter";
 import HeadCough from "../headCough/HeadCough";
+import ShowSC from "../showSmallCopm/ShowSC";
 
 export default function TopWriters() {
 	const [topWritersData, setTopWritersData] = useState([
@@ -45,7 +45,7 @@ export default function TopWriters() {
 			<HeadCough title={"بهترین نویسندگان"} />
 			<div className="flex flex-wrap justify-evenly items-center gap-y-6 my-4">
 				{topWritersData.map((writer, index) => (
-					<TopWriter
+					<ShowSC
 						urlImg={writer.img}
 						name={writer.name}
 						cap={writer.cap}

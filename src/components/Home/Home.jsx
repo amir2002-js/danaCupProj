@@ -1,9 +1,11 @@
 import { BestSellerBooks } from "./Best Seller/BestSellerBooks";
 import BestBooksInWeek from "./BestBooksInWeek/BestBooksInWeek";
+import BestPublishers from "./bestPublisher/BestPublishers";
 import CarouselComponents from "./Carousel/CarouselComponents";
 import { DisCountBox } from "./DisCountBox/DisCountBox";
 import Duty from "./DutyOfSite/Duty";
 import Events from "./Events/Events";
+import NextEvents from "./Events2/NextEvents";
 import FamousBooks from "./FamousBooks/FamousBooks";
 import Grouping from "./Grouping/Grouping";
 import { Nav } from "./Navbar/Nav";
@@ -30,7 +32,9 @@ export const Home = () => {
 					<Grouping />
 					<WeekWriter />
 					<TopWriters />
-					<BestBooksInWeek/>
+					<BestBooksInWeek />
+					<NextEvents />
+					<BestPublishers />
 				</div>
 			</div>
 		</>

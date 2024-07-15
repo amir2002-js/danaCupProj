@@ -1,6 +1,6 @@
 export default function WeekWriter() {
 	return (
-		<div className="bg-white dark:text-white/80 shadow-[0_0_10px_gray] dark:shadow-[0_0_10px_black]  grid lg:grid-cols-2 max-lg:gap-5 grid-cols-1 rounded-xl p-4 shadow-slate-400 justify-between items-center">
+		<div className="bg-white dark:text-white/80 dark:bg-slate-700 shadow-[0_0_10px_gray] dark:shadow-[0_0_10px_black]  grid lg:grid-cols-2 max-lg:gap-5 grid-cols-1 rounded-xl p-4 shadow-slate-400 justify-between items-center">
 			<div className="grid grid-cols-1 sm:grid-cols-2 gap-5 items-center justify-items-center justify-center">
 				<img src="../../images/writer.png" alt="" />
 				<div className="flex flex-col gap-3 max-sm:text-center">
@@ -11,7 +11,7 @@ export default function WeekWriter() {
 						<p>Brandon Sanderson</p>
 						<p>برندون سندرسون</p>
 					</div>
-					<figcaption className="text-slate-700 dark:text-slate-500 text-sm">
+					<figcaption className="text-slate-700 dark:text-slate-400 text-sm">
 						برندن سَندرسون نویسنده اهل آمریکا است. او بیشتر به
 						خاطر سری مه زاد و دست داشتن برای به اتمام رساندن
 						کتاب خیال‌پردازی حماسی چرخ زمان، نوشته رابرت جوردن بعد
