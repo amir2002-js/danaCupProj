@@ -1,3 +1,4 @@
+import ApplicationComp from "./Application/ApplicationComp";
 import { BestSellerBooks } from "./Best Seller/BestSellerBooks";
 import BestBooksInWeek from "./BestBooksInWeek/BestBooksInWeek";
 import BestPublishers from "./bestPublisher/BestPublishers";
@@ -35,6 +36,7 @@ export const Home = () => {
 					<BestBooksInWeek />
 					<NextEvents />
 					<BestPublishers />
+					<ApplicationComp/>
 				</div>
 			</div>
 		</>
