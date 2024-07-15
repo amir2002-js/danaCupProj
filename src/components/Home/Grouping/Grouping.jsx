@@ -5,7 +5,7 @@ export default function Grouping() {
   return (
     <div className='my-10'>
         <HeadCough title={"دسته‌بندی کتاب‌ها"}/>
-        <div className="flex justify-between items-center *:flex-grow gap-5 flex-wrap">
+        <div className="flex justify-between items-center *:flex-grow gap-5 flex-wrap my-5">
         <Group title={"کتاب‌های صوتی"} about={"cccc"} icon={<LuBookMarked className='text-3xl'/>}/>
         <Group title={"رمان عاشقانه"} about={"cccc"} icon={<LuHeart className='text-3xl'/>}/>
         <Group title={"درسی و کمک‌درسی"} about={"cccc"} icon={<LuAirplay className='text-3xl'/>}/>

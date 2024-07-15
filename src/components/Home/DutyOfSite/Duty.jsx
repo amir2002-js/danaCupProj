@@ -24,10 +24,10 @@ export default function Duty() {
 		},
 	];
 	return (
-		<div className="grid md:grid-cols-4 grid-cols-2 gap-3 justify-between items-center">
+		<div className="grid md:grid-cols-4 sm:grid-cols-2 grid-cols-1 gap-3 justify-between items-center">
 			{dutis.map((duty) => (
 				<div
-					className="flex flex-wrap dark:shadow-white/10 dark:shadow-md items-center lg:gap-5 md:gap-2.5 px-2 justify-start gap-1 bg-white dark:bg-slate-700 rounded-2xl w-full py-4 shadow"
+					className="flex flex-nowrap dark:shadow-white/10 dark:shadow-md items-center lg:gap-5 md:gap-2.5 px-2 justify-start gap-1 bg-white dark:bg-slate-700 rounded-2xl w-full py-4 shadow"
 					key={duty.id}
 				>
 					<div className="">
@@ -35,9 +35,9 @@ export default function Duty() {
 							<LuShield className="text-xl" />
 						</span>
 					</div>
-					<div className="flex flex-col items-start dark:text-slate-100">
+					<div className="flex flex-col items-start max-sm:text-xs font-dana dark:text-slate-100 ">
 						<p>{duty.caption}</p>
-						<figcaption className="font-dana text-[8px] whitespace-nowrap">
+						<figcaption className="font-dana text-[8px]">
 							{duty.figCaption}
 						</figcaption>
 					</div>

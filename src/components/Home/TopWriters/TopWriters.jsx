@@ -43,7 +43,7 @@ export default function TopWriters() {
 	return (
 		<div className="my-10">
 			<HeadCough title={"بهترین نویسندگان"} />
-			<div className="flex flex-wrap justify-between items-center gap-y-6 my-4">
+			<div className="flex flex-wrap justify-evenly items-center gap-y-6 my-4">
 				{topWritersData.map((writer, index) => (
 					<TopWriter
 						urlImg={writer.img}
