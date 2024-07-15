@@ -1,4 +1,5 @@
 import { BestSellerBooks } from "./Best Seller/BestSellerBooks";
+import BestBooksInWeek from "./BestBooksInWeek/BestBooksInWeek";
 import CarouselComponents from "./Carousel/CarouselComponents";
 import { DisCountBox } from "./DisCountBox/DisCountBox";
 import Duty from "./DutyOfSite/Duty";
@@ -29,6 +30,7 @@ export const Home = () => {
 					<Grouping />
 					<WeekWriter />
 					<TopWriters />
+					<BestBooksInWeek/>
 				</div>
 			</div>
 		</>

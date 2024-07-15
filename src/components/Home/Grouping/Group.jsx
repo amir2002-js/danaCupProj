@@ -2,7 +2,7 @@ import { LuArrowBigLeft, LuBookMarked, LuChevronLeft } from "react-icons/lu";
 
 export default function Group({title , about , icon}) {
   return (
-    <div className="flex items-center justify-between bg-teal-600 rounded-xl p-2 text-slate-200 shadow shadow-black/70 min-w-[200px] ">
+    <div className="flex items-center justify-between bg-teal-600 rounded-xl p-2 text-slate-200 shadow-[0_0_10px_gray] dark:shadow-[0_0_15px_black] min-w-[200px] ">
         <div className="flex justify-center items-center gap-4">
             <div className="">
                 {icon}

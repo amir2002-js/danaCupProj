@@ -27,7 +27,7 @@ export default function Duty() {
 		<div className="grid md:grid-cols-4 sm:grid-cols-2 grid-cols-1 gap-3 justify-between items-center">
 			{dutis.map((duty) => (
 				<div
-					className="flex flex-nowrap dark:shadow-white/10 dark:shadow-md items-center lg:gap-5 md:gap-2.5 px-2 justify-start gap-1 bg-white dark:bg-slate-700 rounded-2xl w-full py-4 shadow"
+					className="flex flex-nowrap shadow-[0_0_10px_gray] dark:shadow-[0_0_10px_black] items-center lg:gap-5 md:gap-2.5 px-2 justify-start gap-1 bg-white dark:bg-slate-700 rounded-2xl w-full py-4 shadow"
 					key={duty.id}
 				>
 					<div className="">
