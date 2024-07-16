@@ -6,7 +6,7 @@ import { MdLocationPin, MdOutlineMail, MdPhoneEnabled } from "react-icons/md";
 
 export default function Footer() {
 	return (
-		<div className="dark:bg-gray-700 mt-14">
+		<div className="dark:text-slate-100 mt-14">
 			<div className="max-w-maxWidth container py-5 flex max-lg:flex-wrap gap-10">
 				<div className="flex flex-col gap-10 items-start col-span-4 max-md:flex-grow">
 					<Logo />
