@@ -8,6 +8,7 @@ import Duty from "./DutyOfSite/Duty";
 import Events from "./Events/Events";
 import NextEvents from "./Events2/NextEvents";
 import FamousBooks from "./FamousBooks/FamousBooks";
+import Footer from "./Footer/Footer";
 import Grouping from "./Grouping/Grouping";
 import { Nav } from "./Navbar/Nav";
 import PublishersBox from "./Publisher/PublishersBox";
@@ -21,7 +22,7 @@ export const Home = () => {
 			<nav className="border-b fixed top-0 w-full bg-white dark:bg-slate-800 border-slate-300 py-3 z-10">
 				<Nav />
 			</nav>
-			<div className="bg-slate-100 dark:bg-slate-900 py-5 mt-[138px]">
+			<div className="bg-slate-100 dark:bg-slate-900 pt-5 mt-[138px]">
 				<div className=" container max-w-maxWidth">
 					<CarouselComponents />
 					<DisCountBox />
@@ -38,6 +39,7 @@ export const Home = () => {
 					<BestPublishers />
 					<ApplicationComp/>
 				</div>
+					<Footer/>
 			</div>
 		</>
 	);

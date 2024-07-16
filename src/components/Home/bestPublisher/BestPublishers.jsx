@@ -48,9 +48,9 @@ export default function BestPublishers() {
 		},
 	]);
 	return (
-		<div className="">
+		<div className="my-12">
 			<HeadCough title={"برترین ناشران"} />
-			<div className="flex justify-evenly items-center flex-wrap gap-2 gap-y-5">
+			<div className="flex justify-evenly items-center flex-wrap gap-2 gap-y-5 my-4">
 				{bsetPublisherData.map((publisher, index) => (
 					<ShowSC
 						name={publisher.name}
