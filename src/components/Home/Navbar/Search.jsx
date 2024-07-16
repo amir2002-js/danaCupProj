@@ -13,7 +13,7 @@ export const Search = () => {
 				<input
 					type="text"
 					placeholder="جستجو توی کتابخونه..."
-					className="outline-none bg-black/0 w-full"
+					className="outline-none bg-black/0 w-full dark:text-slate-900"
 				/>
 			</form>
 		</>

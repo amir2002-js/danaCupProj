@@ -94,12 +94,12 @@ export default function Footer() {
 					</div>
 				</div>
 			</div>
-            <div className="max-w-maxWidth container mt-10 h-px bg-slate-300"></div>
-            <div className="max-w-maxWidth container text-nowrap flex justify-center">
-                <p className="text-slate-400 p-10">
-                کلیه حقوق مادی و معنوی برای سایت کتابخونه محفوظ است.
-                </p>
-            </div>
+			<div className="max-w-maxWidth container mt-10 h-px bg-slate-300"></div>
+			<div className="max-w-maxWidth container text-nowrap flex justify-center">
+				<p className="text-slate-400 p-10">
+					کلیه حقوق مادی و معنوی برای سایت کتابخونه محفوظ است.
+				</p>
+			</div>
 		</div>
 	);
 }
