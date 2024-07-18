@@ -10,6 +10,7 @@ import Logo from "./Logo";
 import { useState } from "react";
 import MenuBtn from "./MenuBtn";
 import { DarkMode } from "./DarkMode";
+import { Link } from "react-router-dom";
 
 export const Nav = () => {
 	const [isopen, setStyle] = useState(false);
@@ -31,10 +32,12 @@ export const Nav = () => {
 				</div>
 
 				{/* login */}
-				<button className="flex justify-center items-center border border-slate-200 p-3 rounded-md gap-4 shadow">
-					<LuUser2 className="text-xl" />
-					<p className="hidden md:block">ثبت نام | ورود</p>
-				</button>
+				<Link to="/Login">
+					<button className="flex justify-center items-center border border-slate-200 p-3 rounded-md gap-4 shadow">
+						<LuUser2 className="text-xl" />
+						<p className="hidden md:block">ثبت نام | ورود</p>
+					</button>
+				</Link>
 
 				{/* dark mood btn*/}
 				<DarkMode />

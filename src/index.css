@@ -68,4 +68,16 @@
         font-display: swap;
         src: url(../fonts/PeydaFaNum-Light.ttf) format('truetype');
       }
+}
+
+@layer utilities {
+  .no-spinner::-webkit-inner-spin-button,
+  .no-spinner::-webkit-outer-spin-button{
+    @apply appearance-none;
+    margin: 0;
   }
+
+  .no-spinner{
+    -moz-appearance: textfield;
+  }
+}

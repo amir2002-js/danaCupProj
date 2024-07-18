@@ -1,11 +1,13 @@
-import { Routes, Route,  } from 'react-router-dom'
-import { Home } from './Home/Home';
+import { Routes, Route } from "react-router-dom";
+import { Home } from "./Home/Home";
+import Login from "./Login/Login";
 
 function App() {
 	return (
-		<div className='font-danaregular' dir='rtl'>
+		<div className="font-danaregular" dir="rtl">
 			<Routes>
-				<Route path='/' element={<Home/>}  />
+				<Route path="/" element={<Home />} />
+				<Route path="/Login" element={<Login />} />
 			</Routes>
 		</div>
 	);
