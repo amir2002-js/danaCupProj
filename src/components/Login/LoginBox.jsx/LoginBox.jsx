@@ -9,11 +9,13 @@ export default function LoginBox() {
 			</div>
 			<div className="flex flex-col justify-center items-center gap-2">
 				<h1 className="font-danablack">ورود | ثبت‌نام</h1>
-				<p className="font-danalight text-sm">لطفاً تلفن همراه خود را وارد کنید.</p>
+				<p className="font-danalight text-sm">
+					لطفاً تلفن همراه خود را وارد کنید.
+				</p>
 			</div>
 			<div className="">
-                <Form/>
-            </div>
+				<Form />
+			</div>
 		</div>
 	);
 }
