@@ -1,8 +1,7 @@
 import { useState } from "react";
 
-export default function EnterNum() {
+export default function EnterNum({validation , setValidation}) {
 	const [inpVla, setInpVal] = useState(0);
-	const [validation, setValidation] = useState(false);
 
 	const changeVal = (val) => {
 		setInpVal(val);
