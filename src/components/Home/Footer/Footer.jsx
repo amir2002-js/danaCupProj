@@ -161,8 +161,7 @@ export default function Footer() {
 						<ul className="flex flex-col gap-3 ">
 							<li className="flex justify-start items-start gap-2">
 								<div className="min-w-8">
-
-								<MdLocationPin className="text-3xl" />
+									<MdLocationPin className="text-3xl" />
 								</div>
 								<p>
 									اصفهان، خیابان فردوسی، فرعی سوم، کوچه
