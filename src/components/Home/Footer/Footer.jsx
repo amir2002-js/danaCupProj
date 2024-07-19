@@ -25,20 +25,48 @@ export default function Footer() {
 						<FaWhatsapp className="text-teal-500" />
 					</div>
 				</div>
-				<div className="flex max-lg:flex-wrap justify-center gap-9">
+				<div className="flex max-lg:flex-wrap justify-center gap-9 max-sm:*:flex-grow">
 					{/* map */}
 					<div className="flex flex-col gap-6">
 						<h1 className="font-danablack text-nowrap">
 							نقشه کتابخونه
 						</h1>
 						<ul className="flex flex-col gap-3 text-nowrap">
-							<li className="">درباره ما</li>
-							<li className="">تماس با ما</li>
-							<li className="">فروشگاه</li>
-							<li className="">تخفیفات ویژه</li>
-							<li className="">مجله خبری</li>
-							<li className="">نویسندگان</li>
-							<li className="">ناشران</li>
+							<li className="">
+								<button className="text-slate-500 hover:text-black">
+									درباره ما
+								</button>
+							</li>
+							<li className="">
+								<button className="text-slate-500 hover:text-black">
+									تماس با ما
+								</button>
+							</li>
+							<li className="">
+								<button className="text-slate-500 hover:text-black">
+									فروشگاه
+								</button>
+							</li>
+							<li className="">
+								<button className="text-slate-500 hover:text-black">
+									تخفیفات ویژه
+								</button>
+							</li>
+							<li className="">
+								<button className="text-slate-500 hover:text-black">
+									مجله خبری
+								</button>
+							</li>
+							<li className="">
+								<button className="text-slate-500 hover:text-black">
+									نویسندگان
+								</button>
+							</li>
+							<li className="">
+								<button className="text-slate-500 hover:text-black">
+									ناشران
+								</button>
+							</li>
 						</ul>
 					</div>
 					{/* gide */}
@@ -47,13 +75,41 @@ export default function Footer() {
 							راهنمای خرید
 						</h1>
 						<ul className="flex flex-col gap-3 text-nowrap">
-							<li className="">روش ثبت سفارش</li>
-							<li className="">نحوه ارسال کالا</li>
-							<li className="">راهنمای پرداخت</li>
-							<li className="">قوانین و مقررات</li>
-							<li className="">روش‌های پرداخت</li>
-							<li className="">خرید عمده کتاب</li>
-							<li className="">رویه ارسال سفارش</li>
+							<li className="">
+								<button className="text-slate-500 hover:text-black">
+									روش ثبت سفارش
+								</button>
+							</li>
+							<li className="">
+								<button className="text-slate-500 hover:text-black">
+									نحوه ارسال کالا
+								</button>
+							</li>
+							<li className="">
+								<button className="text-slate-500 hover:text-black">
+									راهنمای پرداخت
+								</button>
+							</li>
+							<li className="">
+								<button className="text-slate-500 hover:text-black">
+									قوانین و مقررات
+								</button>
+							</li>
+							<li className="">
+								<button className="text-slate-500 hover:text-black">
+									روش‌های پرداخت
+								</button>
+							</li>
+							<li className="">
+								<button className="text-slate-500 hover:text-black">
+									خرید عمده کتاب
+								</button>
+							</li>
+							<li className="">
+								<button className="text-slate-500 hover:text-black">
+									رویه ارسال سفارش
+								</button>
+							</li>
 						</ul>
 					</div>
 					{/* customers */}
@@ -62,13 +118,41 @@ export default function Footer() {
 							خدمات مشتریان
 						</h1>
 						<ul className="flex flex-col gap-3 text-nowrap">
-							<li className="">سوالات متداول</li>
-							<li className="">کدهای تخفیف</li>
-							<li className="">رویه بازگشت کالا</li>
-							<li className="">حریم خصوصی</li>
-							<li className="">گزارش مشکلات سایت</li>
-							<li className="">انتقادات و پیشنهادات</li>
-							<li className="">فرصت‌های شغلی</li>
+							<li className="">
+								<button className="text-slate-500 hover:text-black">
+									سوالات متداول
+								</button>
+							</li>
+							<li className="">
+								<button className="text-slate-500 hover:text-black">
+									کدهای تخفیف
+								</button>
+							</li>
+							<li className="">
+								<button className="text-slate-500 hover:text-black">
+									رویه بازگشت کالا
+								</button>
+							</li>
+							<li className="">
+								<button className="text-slate-500 hover:text-black">
+									حریم خصوصی
+								</button>
+							</li>
+							<li className="">
+								<button className="text-slate-500 hover:text-black">
+									گزارش مشکلات سایت
+								</button>
+							</li>
+							<li className="">
+								<button className="text-slate-500 hover:text-black">
+									انتقادات و پیشنهادات
+								</button>
+							</li>
+							<li className="">
+								<button className="text-slate-500 hover:text-black">
+									فرصت‌های شغلی
+								</button>
+							</li>
 						</ul>
 					</div>
 					{/* location */}
@@ -76,7 +160,10 @@ export default function Footer() {
 						<h1 className="font-danablack text-nowrap">نشانی ما</h1>
 						<ul className="flex flex-col gap-3 ">
 							<li className="flex justify-start items-start gap-2">
+								<div className="min-w-8">
+
 								<MdLocationPin className="text-3xl" />
+								</div>
 								<p>
 									اصفهان، خیابان فردوسی، فرعی سوم، کوچه
 									بهارستان، ساختمان آبشار، واحد ۴
@@ -88,7 +175,9 @@ export default function Footer() {
 							</li>
 							<li className="flex justify-start items-center gap-2">
 								<MdOutlineMail className="text-3xl" />
-								<p>info@ketabkhoone.com</p>
+								<button className="text-slate-500 hover:text-black">
+									info@ketabkhoone.com
+								</button>
 							</li>
 						</ul>
 					</div>
@@ -96,7 +185,7 @@ export default function Footer() {
 			</div>
 			<div className="max-w-maxWidth container mt-10 h-px bg-slate-300"></div>
 			<div className="max-w-maxWidth container text-nowrap flex justify-center">
-				<p className="text-slate-400 p-10">
+				<p className="text-slate-400 md:p-10 p-4 text-sm text-center">
 					کلیه حقوق مادی و معنوی برای سایت کتابخونه محفوظ است.
 				</p>
 			</div>

@@ -23,7 +23,7 @@ export const Nav = () => {
 			<div className="container flex justify-between max-w-maxWidth py-3 dark:text-slate-100">
 				{/* logo */}
 				<div>
-					<Logo />
+					<Logo hide={true} />
 				</div>
 
 				{/* search bar */}

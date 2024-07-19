@@ -14,8 +14,8 @@ export default function Login() {
 			>
 				<div className="bg-white absolute z-40 p-5 flex flex-col justify-center items-center gap-5 rounded-2xl border">
 					<p className="text-center">
-						وااااااای از دست تو <br /> ببین داداش شماره تلفنی که وارد کردی
-						معتبر نیست ....
+						وااااااای از دست تو <br /> ببین داداش شماره تلفنی که
+						وارد کردی معتبر نیست ....
 					</p>
 					<button
 						className="bg-red-400 hover:bg-red-600 text-white px-8 shadow py-1 rounded-md"
