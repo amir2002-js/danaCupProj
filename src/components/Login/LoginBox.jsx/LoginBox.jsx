@@ -3,7 +3,7 @@ import Logo from "../../Home/Navbar/Logo";
 import Form from "../Form/Form";
 
 export default function LoginBox({ notValAlert, setAlert }) {
-	const [spiner , setSpiner] = useState(false);
+	const [spiner, setSpiner] = useState(false);
 	return (
 		<div className="bg-white rounded-xl flex flex-col justify-center items-center gap-8 px-1 py-8 z-10 w-[300px]">
 			<div className="">
@@ -16,10 +16,23 @@ export default function LoginBox({ notValAlert, setAlert }) {
 				</p>
 			</div>
 			<div className="">
-				<Form notValAlert={notValAlert} setAlert={setAlert} spiner={spiner} setSpiner={setSpiner} />
+				<Form
+					notValAlert={notValAlert}
+					setAlert={setAlert}
+					spiner={spiner}
+					setSpiner={setSpiner}
+				/>
 			</div>
-			<div className={`absolute bg-black/70 size-full justify-center items-center ${spiner? "flex" : "hidden"}`}>
-				<img src="../../images/loading.gif" alt="" className="w-[200px] rounded-xl"/>
+			<div
+				className={`absolute bg-black/70 size-full justify-center items-center ${
+					spiner ? "flex" : "hidden"
+				}`}
+			>
+				<img
+					src="../../images/loading.gif"
+					alt=""
+					className="w-[200px] rounded-xl"
+				/>
 			</div>
 		</div>
 	);

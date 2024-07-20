@@ -3,10 +3,10 @@ export default function EnterNum({
 	setValidation,
 	inpVla,
 	changeVal,
-	checknum
+	checknum,
 }) {
 	return (
-		<div className={`relative ${checknum? "hidden" : ""}`}>
+		<div className={`relative ${checknum ? "hidden" : ""}`}>
 			<input
 				type="number"
 				name=""
