@@ -1,14 +1,12 @@
-import { useState } from "react";
-
-export default function EnterNum({ validation, setValidation }) {
-	const [inpVla, setInpVal] = useState(0);
-
-	const changeVal = (val) => {
-		setInpVal(val);
-	};
-
+export default function EnterNum({
+	validation,
+	setValidation,
+	inpVla,
+	changeVal,
+	checknum
+}) {
 	return (
-		<div className="relative ">
+		<div className={`relative ${checknum? "hidden" : ""}`}>
 			<input
 				type="number"
 				name=""
@@ -17,10 +15,9 @@ export default function EnterNum({ validation, setValidation }) {
 				onInput={(e) => {
 					changeVal(e.target.value);
 					let number = inpVla;
-
 					if (e.target.value.length > 11) {
-						number = inpVla.substring(0, 11);
-						setInpVal(number);
+						number = number.substring(0, 11);
+						changeVal(number);
 						e.target.value = number;
 						if (number.substring(0, 2) == "09") {
 							setValidation(true);
