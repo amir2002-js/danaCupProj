@@ -2,6 +2,7 @@ import CodeInp from "./CodeInp";
 import EnterNum from "./EnterNum";
 import { useState } from "react";
 import LoginByNum from "./LoginByNum";
+import LoginByEmail from "./LoginByEmail";
 
 export default function Form({ setAlert, spiner, setSpiner }) {
 	const [validation, setValidation] = useState(false);
@@ -15,12 +16,8 @@ export default function Form({ setAlert, spiner, setSpiner }) {
 
 	return (
 		<div className="flex flex-col justify-center items-stretch gap-4 w-[250px]">
-			<p className={`${!checknum ? "" : "text-xs"}`}>
-				{!checknum
-					? "تلفن همراه"
-					: `کدی که به شماره ${inpVla} ارسال شد وارد کنید`}
-			</p>
-			<LoginByNum
+
+			{loginByNumber? <LoginByNum
 				validation={validation}
 				setValidation={setValidation}
 				spiner={spiner}
@@ -30,11 +27,16 @@ export default function Form({ setAlert, spiner, setSpiner }) {
 				changeVal={changeVal}
 				setAlert={setAlert}
 				setCheckNum={setCheckNum}
-			/>
+			/> : <LoginByEmail />
+		}
 			<button
 				className={`text-blue-500 hover:text-purple-500 font-peydalight ${
 					!checknum ? "" : "hidden"
 				}`}
+
+				onClick={() => {
+					setLoginByNumber(!loginByNumber)
+				}}
 			>
 				{loginByNumber ? "لاگین با ایمیل" : "لاگین با شماره تلفن"}
 			</button>
