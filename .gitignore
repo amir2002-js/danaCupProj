@@ -12,7 +12,6 @@ dist
 dist-ssr
 *.local
 
-fonts
 
 .vscode/*
 !.vscode/extensions.json
@@ -27,4 +26,3 @@ fonts
 *.cjs
 *.config.js
 *.md
-*.json
