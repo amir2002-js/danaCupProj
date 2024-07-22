@@ -14,7 +14,7 @@ export default function LoginByNum({
 }) {
 	return (
 		<>
-			<p className={`${!checknum ? "" : "text-xs"}`}>
+			<p className={`${!checknum ? "" : "text-xs"} text-center`}>
 				{!checknum
 					? "تلفن همراه"
 					: `کدی که به شماره ${inpVla} ارسال شد وارد کنید`}
@@ -34,6 +34,7 @@ export default function LoginByNum({
 					className="bg-teal-600 hover:bg-teal-700 text-white py-1.5 mt-6 rounded-lg shadow shadow-black/70"
 					onClick={() => {
 						if (!validation) {
+							// به کاربر پیام میدهد که شماره اشتباهه
 							setAlert(false);
 						} else {
 							setCheckNum(true);
