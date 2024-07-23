@@ -6,7 +6,7 @@ export default function Carousel() {
 			<p className="font-danalight text-amber-400 text-sm">فروش ویژه</p>
 			<div className="flex justify-center items-center flex-col">
 				<img
-					src="../../images/Hardcover.png"
+					src="../../src/images/Hardcover.png"
 					className="h-[140px]"
 					alt=""
 				/>

@@ -2,7 +2,7 @@ export default function WeekWriter() {
 	return (
 		<div className="bg-white dark:text-white/80 dark:bg-slate-700 shadow-[0_0_10px_gray] dark:shadow-[0_0_10px_black]  grid lg:grid-cols-2 max-lg:gap-5 grid-cols-1 rounded-xl p-4 shadow-slate-400 justify-between items-center">
 			<div className="grid grid-cols-1 sm:grid-cols-2 gap-5 items-center justify-items-center justify-center">
-				<img src="../../images/writer.png" alt="" />
+				<img src="../../src/images/writer.png" alt="" />
 				<div className="flex flex-col gap-3 max-sm:text-center">
 					<h1 className="font-danabold text-red-600">
 						نویسنده برتر هفته
@@ -27,15 +27,15 @@ export default function WeekWriter() {
 
 			<div className="grid grid-cols-3 justify-items-center gap-4 items-stretch">
 				<img
-					src="../../images/book1-bestWriterInWeak.png"
+					src="../../src/images/book1-bestWriterInWeak.png"
 					width={"190px"}
 				/>
 				<img
-					src="../../images/book2-bestWriterInWeak.png"
+					src="../../src/images/book2-bestWriterInWeak.png"
 					width={"190px"}
 				/>
 				<img
-					src="../../images/book3-bestWriterInWeak.png"
+					src="../../src/images/book3-bestWriterInWeak.png"
 					width={"190px"}
 				/>
 			</div>

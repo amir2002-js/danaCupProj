@@ -5,42 +5,42 @@ import BestBookInWeek from "./BestBookInWeek";
 export default function BestBooksInWeek() {
 	const [dataInbbiw, setDataInbbiw] = useState([
 		{
-			imgUrl: "../../images/bbiw.png",
+			imgUrl: "../../src/images/bbiw.png",
 			title: "بزرگراه لینکن",
 			price: "۳۶۸،۰۰۰ تومان",
 			type: "رمان خارجی / امور تولز",
 			id: 1,
 		},
 		{
-			imgUrl: "../../images/bbiw.png",
+			imgUrl: "../../src/images/bbiw.png",
 			title: "بزرگراه لینکن",
 			price: "۳۶۸،۰۰۰ تومان",
 			type: "رمان خارجی / امور تولز",
 			id: 2,
 		},
 		{
-			imgUrl: "../../images/bbiw.png",
+			imgUrl: "../../src/images/bbiw.png",
 			title: "بزرگراه لینکن",
 			price: "۳۶۸،۰۰۰ تومان",
 			type: "رمان خارجی / امور تولز",
 			id: 3,
 		},
 		{
-			imgUrl: "../../images/bbiw.png",
+			imgUrl: "../../src/images/bbiw.png",
 			title: "بزرگراه لینکن",
 			price: "۳۶۸،۰۰۰ تومان",
 			type: "رمان خارجی / امور تولز",
 			id: 4,
 		},
 		{
-			imgUrl: "../../images/bbiw.png",
+			imgUrl: "../../src/images/bbiw.png",
 			title: "بزرگراه لینکن",
 			price: "۳۶۸،۰۰۰ تومان",
 			type: "رمان خارجی / امور تولز",
 			id: 5,
 		},
 		{
-			imgUrl: "../../images/bbiw.png",
+			imgUrl: "../../src/images/bbiw.png",
 			title: "بزرگراه لینکن",
 			price: "۳۶۸،۰۰۰ تومان",
 			type: "رمان خارجی / امور تولز",

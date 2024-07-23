@@ -8,35 +8,35 @@
       font-style: normal;
       font-weight: 400;
       font-display: swap;
-      src: url(../fonts/DanaFaNum-Regular.ttf) format('truetype');
+      src: url(../src/fonts/DanaFaNum-Regular.ttf) format('truetype');
     }
     @font-face {
       font-family: 'dana-black';
       font-style: normal;
       font-weight: 400;
       font-display: swap;
-      src: url(../fonts/DanaFaNum-Black.ttf) format('truetype');
+      src: url(../src/fonts/DanaFaNum-Black.ttf) format('truetype');
     }
     @font-face {
       font-family: 'dana-bold';
       font-style: normal;
       font-weight: 400;
       font-display: swap;
-      src: url(../fonts/DanaFaNum-Bold.ttf) format('truetype');
+      src: url(../src/fonts/DanaFaNum-Bold.ttf) format('truetype');
     }
     @font-face {
       font-family: 'dana-light';
       font-style: normal;
       font-weight: 400;
       font-display: swap;
-      src: url(../fonts/DanaFaNum-Light.ttf) format('truetype');
+      src: url(../src/fonts/DanaFaNum-Light.ttf) format('truetype');
     }
     @font-face {
       font-family: 'dana';
       font-style: normal;
       font-weight: 400;
       font-display: swap;
-      src: url(../fonts/DanaFaNum-Medium.ttf) format('truetype');
+      src: url(../src/fonts/DanaFaNum-Medium.ttf) format('truetype');
     }
 
 
@@ -45,28 +45,28 @@
         font-style: normal;
         font-weight: 400;
         font-display: swap;
-        src: url(../fonts/PeydaFaNum-SemiBold.ttf) format('truetype');
+        src: url(../src/fonts/PeydaFaNum-SemiBold.ttf) format('truetype');
       }
     @font-face {
         font-family: 'peydabold';
         font-style: normal;
         font-weight: 400;
         font-display: swap;
-        src: url(../fonts/PeydaFaNum-Bold.ttf) format('truetype');
+        src: url(../src/fonts/PeydaFaNum-Bold.ttf) format('truetype');
       }
     @font-face {
         font-family: 'peydamd';
         font-style: normal;
         font-weight: 400;
         font-display: swap;
-        src: url(../fonts/PeydaFaNum-Medium.ttf) format('truetype');
+        src: url(../src/fonts/PeydaFaNum-Medium.ttf) format('truetype');
       }
     @font-face {
         font-family: 'peydalight';
         font-style: normal;
         font-weight: 400;
         font-display: swap;
-        src: url(../fonts/PeydaFaNum-Light.ttf) format('truetype');
+        src: url(../src/fonts/PeydaFaNum-Light.ttf) format('truetype');
       }
 }
 

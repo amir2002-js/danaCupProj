@@ -6,22 +6,22 @@ export default function ApplicationComp() {
 		{
 			title: "دانلود از بازار",
 			description: "نسخه اندروید",
-			urlImgae: "../../images/bazar.png",
+			urlImgae: "../../src/images/bazar.png",
 		},
 		{
 			title: "دانلود از سیب اپ",
 			description: "نسخه iOS",
-			urlImgae: "../../images/sibApp.png",
+			urlImgae: "../../src/images/sibApp.png",
 		},
 		{
 			title: "دانلود از گوگل‌پلی",
 			description: "نسخه اندروید",
-			urlImgae: "../../images/googlePly.png",
+			urlImgae: "../../src/images/googlePly.png",
 		},
 		{
 			title: "دانلود از اپ‌استور",
 			description: "نسخه iOS",
-			urlImgae: "../../images/appStore.png",
+			urlImgae: "../../src/images/appStore.png",
 		},
 	]);
 	return (

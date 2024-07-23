@@ -7,37 +7,37 @@ export default function TopWriters() {
 		{
 			name: "آگاتا کریستی",
 			cap: "۲۰ اثر ترجمه‌شده",
-			img: "../../images/Ellipse 1951.png",
+			img: "../../src/images/Ellipse 1951.png",
 		},
 		{
 			name: "برندون سندرسون",
 			cap: "۲۰ اثر ترجمه‌شده",
-			img: "../../images/Ellipse 1952.png",
+			img: "../../src/images/Ellipse 1952.png",
 		},
 		{
 			name: "جی کی رولینگ",
 			cap: "۲۰ اثر ترجمه‌شده",
-			img: "../../images/Ellipse 1953.png",
+			img: "../../src/images/Ellipse 1953.png",
 		},
 		{
 			name: "جی آر آر تالکین",
 			cap: "۲۰ اثر ترجمه‌شده",
-			img: "../../images/Ellipse 1954.png",
+			img: "../../src/images/Ellipse 1954.png",
 		},
 		{
 			name: "نیل گیمن",
 			cap: "۲۰ اثر ترجمه‌شده",
-			img: "../../images/Ellipse 1955.png",
+			img: "../../src/images/Ellipse 1955.png",
 		},
 		{
 			name: "جرج مارتین",
 			cap: "۲۰ اثر ترجمه‌شده",
-			img: "../../images/Ellipse 1956.png",
+			img: "../../src/images/Ellipse 1956.png",
 		},
 		{
 			name: "پاتریک راتفاس",
 			cap: "۲۰ اثر ترجمه‌شده",
-			img: "../../images/Ellipse 1957.png",
+			img: "../../src/images/Ellipse 1957.png",
 		},
 	]);
 	return (

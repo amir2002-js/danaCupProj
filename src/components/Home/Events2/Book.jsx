@@ -3,7 +3,7 @@ import { useState } from "react";
 export default function Book() {
 	const [dataBook, setDataBook] = useState([
 		{
-			url: "../../images/ev4.png",
+			url: "../../src/images/ev4.png",
 			description: "تنوعی بی‌نظیر از بهترین رمان‌های فانتزی جهان",
 			caption: "یه فانتزی جدید، یه دنیای جدید",
 			id: 1,
@@ -12,7 +12,7 @@ export default function Book() {
 			themecap: "text-blue-400",
 		},
 		{
-			url: "../../images/ev5.png",
+			url: "../../src/images/ev5.png",
 			description: "تنوعی بی‌نظیر از بهترین رمان‌های فانتزی جهان",
 			caption: "سری به دنیای‌ حماسه‌ها بزن",
 			id: 2,

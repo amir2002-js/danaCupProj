@@ -11,7 +11,7 @@ export default function BestSellerBook() {
 			auther: "جرج آر آر تالکین",
 			tarnslate: "رضا علیزاده",
 			id: 1,
-			url: "../../images/bstSeller1.png",
+			url: "../../src/images/bstSeller1.png",
 		},
 		{
 			title: "افسون خارها",
@@ -22,7 +22,7 @@ export default function BestSellerBook() {
 			auther: "مارگارت راجرسون",
 			tarnslate: "اطلس خرامانی",
 			id: 2,
-			url: "../../images/bstSeller2.png",
+			url: "../../src/images/bstSeller2.png",
 		},
 	];
 	return (
