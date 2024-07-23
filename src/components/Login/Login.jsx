@@ -4,7 +4,7 @@ import { useState } from "react";
 export default function Login() {
 	const [notValAlert, setAlert] = useState(true);
 	return (
-		<div className="h-svh bg-[url(../../images/Login.jpg)] bg-cover bg-center flex justify-center items-center ">
+		<div className="h-svh bg-[url(../../src/images/Login.jpg)] bg-cover bg-center flex justify-center items-center ">
 			<div className="size-full bg-black/50 fixed top-0"></div>
 			<LoginBox setAlert={setAlert} notValAlert={notValAlert} />
 			<div

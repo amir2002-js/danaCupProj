@@ -29,7 +29,7 @@ export default function LoginBox({ notValAlert, setAlert }) {
 				}`}
 			>
 				<img
-					src="../../images/loading.gif"
+					src="../../src/images/loading.gif"
 					alt=""
 					className="w-[200px] rounded-xl"
 				/>
