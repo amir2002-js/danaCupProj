@@ -11,6 +11,8 @@ export default function LoginByNum({
 	changeVal,
 	setAlert,
 	setCheckNum,
+	setIsNumber,
+	isNumber,
 }) {
 	return (
 		<>
@@ -35,6 +37,9 @@ export default function LoginByNum({
 					onClick={() => {
 						if (!validation) {
 							// به کاربر پیام میدهد که شماره اشتباهه
+							if (!isNumber) {
+								setIsNumber(!isNumber);
+							}
 							setAlert(false);
 						} else {
 							setCheckNum(true);

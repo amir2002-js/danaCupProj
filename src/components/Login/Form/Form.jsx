@@ -2,7 +2,15 @@ import { useState } from "react";
 import LoginByNum from "./LoginByNum";
 import LoginByEmail from "./LoginByEmail";
 
-export default function Form({ setAlert, spiner, setSpiner }) {
+export default function Form({
+	setAlert,
+	spiner,
+	setSpiner,
+	setIsNumber,
+	setIsEmail,
+	isEmail,
+	isNumber,
+}) {
 	const [loginByNumber, setLoginByNumber] = useState(true);
 
 	// number form
@@ -32,6 +40,8 @@ export default function Form({ setAlert, spiner, setSpiner }) {
 					changeVal={changeVal}
 					setAlert={setAlert}
 					setCheckNum={setCheckNum}
+					setIsNumber={setIsNumber}
+					isNumber={isNumber}
 				/>
 			) : (
 				<LoginByEmail
@@ -39,11 +49,13 @@ export default function Form({ setAlert, spiner, setSpiner }) {
 					setEmailVal={setEmailVal}
 					emailValidation={emailValidation}
 					setEmailValidation={setEmailValidation}
-					setAlert={{ setAlert }}
+					setAlert={setAlert}
 					checkEmail={checkEmail}
 					setCheckEmail={setCheckEmail}
 					spiner={spiner}
 					setSpiner={setSpiner}
+					setIsEmail={setIsEmail}
+					isEmail={isEmail}
 				/>
 			)}
 			<button

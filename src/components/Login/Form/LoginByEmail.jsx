@@ -11,6 +11,8 @@ export default function LoginByEmail({
 	setCheckEmail,
 	spiner,
 	setSpiner,
+	setIsEmail,
+	isEmail,
 }) {
 	// export default function LoginByEmail({emailVal , emailValidation , setEmailValidation , setEmailVal , setAlert  }) {
 
@@ -40,6 +42,10 @@ export default function LoginByEmail({
 						if (emailValidation) {
 							setCheckEmail(true);
 						} else {
+							if (!isEmail) {
+								setIsEmail(!isEmail);
+							}
+							console.log(isEmail);
 							setAlert(false);
 						}
 					}}
