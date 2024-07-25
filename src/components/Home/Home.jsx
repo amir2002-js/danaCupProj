@@ -10,7 +10,6 @@ import NextEvents from "./Events2/NextEvents";
 import FamousBooks from "./FamousBooks/FamousBooks";
 import Footer from "./Footer/Footer";
 import Grouping from "./Grouping/Grouping";
-import { Nav } from "./Navbar/Nav";
 import PublishersBox from "./Publisher/PublishersBox";
 import TopWriters from "./TopWriters/TopWriters";
 import WeekWriter from "./WeekWriter/WeekWriter";
@@ -18,10 +17,6 @@ import WeekWriter from "./WeekWriter/WeekWriter";
 export const Home = () => {
 	return (
 		<>
-			{/* navbar */}
-			<nav className="border-b fixed top-0 w-full bg-white dark:bg-slate-800 border-slate-300 py-3 z-10">
-				<Nav />
-			</nav>
 			<div className="bg-slate-100 dark:bg-slate-900 pt-5 mt-[138px]">
 				<div className=" container max-w-maxWidth">
 					<CarouselComponents />
@@ -37,9 +32,9 @@ export const Home = () => {
 					<BestBooksInWeek />
 					<NextEvents />
 					<BestPublishers />
-					<ApplicationComp/>
+					<ApplicationComp />
 				</div>
-					<Footer/>
+				<Footer />
 			</div>
 		</>
 	);
