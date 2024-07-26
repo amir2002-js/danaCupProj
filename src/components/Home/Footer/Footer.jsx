@@ -7,8 +7,8 @@ import { MdLocationPin, MdOutlineMail, MdPhoneEnabled } from "react-icons/md";
 export default function Footer() {
 	return (
 		<div className="dark:text-slate-100 mt-14">
-			<div className="max-w-maxWidth container py-5 flex max-lg:flex-wrap gap-10">
-				<div className="flex flex-col gap-10 items-start col-span-4 max-md:flex-grow">
+			<div className="max-w-maxWidth container py-5 grid lg:grid-cols-3 grid-cols-1  gap-10">
+				<div className="flex flex-col gap-10 items-start max-md:flex-grow">
 					<Logo />
 					<p className="">
 						اگه شما هم از علاقه‌مندان پروپاقرص کتاب و کتابخوانی
@@ -25,7 +25,7 @@ export default function Footer() {
 						<FaWhatsapp className="text-teal-500" />
 					</div>
 				</div>
-				<div className="flex max-lg:flex-wrap justify-center gap-9 max-sm:*:flex-grow">
+				<div className="grid grid-cols-1 justify-items-center sm:grid-cols-2 md:grid-cols-5 justify-center gap-9 col-span-2">
 					{/* map */}
 					<div className="flex flex-col gap-6">
 						<h1 className="font-danablack text-nowrap">
@@ -156,7 +156,7 @@ export default function Footer() {
 						</ul>
 					</div>
 					{/* location */}
-					<div className="flex flex-col gap-6">
+					<div className="flex flex-col gap-6 md:col-span-2">
 						<h1 className="font-danablack text-nowrap">نشانی ما</h1>
 						<ul className="flex flex-col gap-3 ">
 							<li className="flex justify-start items-start gap-2">

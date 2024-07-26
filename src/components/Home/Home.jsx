@@ -17,7 +17,7 @@ import WeekWriter from "./WeekWriter/WeekWriter";
 export const Home = () => {
 	return (
 		<>
-			<div className="bg-slate-100 dark:bg-slate-900 pt-5 mt-[138px]">
+			<div className="bg-slate-100 dark:bg-slate-900 pt-5 mt-[146px] sm:mt-[98px] md:mt-[138px]">
 				<div className=" container max-w-maxWidth">
 					<CarouselComponents />
 					<DisCountBox />
