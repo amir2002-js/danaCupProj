@@ -12,7 +12,7 @@ export default function EnterEmail({
 				dir="ltr"
 				type="text"
 				className="font-peydamd w-full bg-gray-100 rounded-lg outline-none border border-gray-300 px-3 py-1.5 shadow shadow-black/20"
-				onInput={(e) => {
+				onChange={(e) => {
 					if (e.target.value.endsWith("@gmail.com")) {
 						setEmailVal(e.target.value);
 						console.log(emailVal);

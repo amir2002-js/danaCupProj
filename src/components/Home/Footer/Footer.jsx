@@ -1,7 +1,5 @@
-import { TiLocation, TiPhone } from "react-icons/ti";
 import Logo from "../Navbar/Logo";
 import { FaInstagram, FaTelegramPlane, FaWhatsapp } from "react-icons/fa";
-import { CgPhone } from "react-icons/cg";
 import { MdLocationPin, MdOutlineMail, MdPhoneEnabled } from "react-icons/md";
 
 export default function Footer() {
